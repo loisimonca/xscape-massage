@@ -1,0 +1,349 @@
+body {
+  background-image: url("images/sky5.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.topnav {
+  /* overflow: hidden; */
+  background-color: rgba(244, 253, 252, 0.95);
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.dropbtn {
+  color: #009999 !important;
+  margin-top: 8px !important;
+}
+
+.topnav a {
+  float: left;
+  color: #009999;
+  /* text-align: center; */
+  margin: 0px 2px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 10px !important;
+}
+.nav {
+  float: right !important;
+  margin: 20px 16px !important;
+  padding: 8px;
+}
+.active {
+  color: rgb(10, 10, 10) !important;
+  border: rgb(0, 0, 0) solid 1px;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: right;
+  /* overflow: hidden; */
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(227, 252, 248, 0.9);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: -99999;
+  transition: 3s ease-in;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #009999;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border-radius: 5px !important;
+}
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(201, 238, 238);
+  color: black;
+  z-index: 9999999;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: black;
+}
+
+@media screen and (max-width: 855px) {
+  .topnav a:not(:first-child),
+  .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+    padding: 20px 16px;
+  }
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none !important;
+    display: block !important;
+    text-align: center;
+  }
+  .topnav.responsive .dropdown {
+    float: none !important;
+  }
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.logoLetters {
+  color: #009999;
+  font-family: "Monotype Corsiva";
+  font-size: 58px;
+}
+#logoamp {
+  color: #009999;
+  font-family: "French Script MT";
+}
+
+h1 {
+  font-family: "Baskerville";
+  font-weight: 100;
+  color: #009999;
+  font-size: 44px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+#satAppointment {
+  margin-top: 80px !important;
+  margin-bottom: 10px !important;
+}
+/* .navbar {
+  position: fixed;
+  top: 0;
+  background-color: rgba(244, 253, 252, 0.95);
+  z-index: 1;
+  width: 100%;
+
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  display: block;
+  float: left;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  min-width: 2rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 8;
+  display: block;
+  padding: 0;
+}
+ul li ul li {
+  clear: both;
+  width: 100%;
+} */
+
+/* #banner {
+  height: 150px;
+}
+h1 {
+  font-family: "Baskerville";
+  color: #009999;
+  font-size: 44px;
+}
+h5 {
+  text-align: center; */
+/* } */
+.logoLetters {
+  color: #009999;
+  font-family: "Monotype Corsiva";
+  font-size: 58px;
+}
+#logoamp {
+  color: #009999;
+  font-family: "French Script MT";
+}
+#page-container {
+  /* background-color: #87afb6; */
+  /* background-color: rgba(226, 238, 240, 0.636); */
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  margin-top: 80px;
+}
+
+/* a {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 5px;
+  box-sizing: border-box;
+  height: 10%;
+  border: none;
+}
+
+.nav-link {
+  color: #009999 !important;
+  font-family: "Montserrat", sans-serif;
+  width: 120px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 2px !important;
+}
+
+.active {
+  color: rgb(10, 10, 10) !important;
+  border: rgb(0, 0, 0) solid 1px;
+}
+a:hover {
+  color: rgb(10, 10, 10) !important;
+} */
+img {
+  float: left;
+  margin: 0px;
+  object-fit: fill;
+}
+
+.notFloat {
+  float: none;
+}
+
+.img-responsive {
+  width: 100%;
+
+  object-fit: cover;
+  margin-bottom: 40px;
+}
+.img-responsive2 {
+  width: 100%;
+  margin-bottom: 7%;
+  object-fit: cover;
+}
+/* 
+.navbar-nav .nav-link {
+  text-align: center;
+} */
+/* nav.navbar-nav {
+  background-color: rgba(244, 253, 252, 0.87);
+} */
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 0 !important;
+}
+
+.green {
+  background-color: #009999;
+}
+
+.sprn3 {
+  width: 45%;
+  margin: 1%;
+  color: #009999;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.493);
+}
+.main {
+  text-align: center;
+  font-weight: bold;
+  font-size: 130%;
+  color: #009999;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.493);
+  margin-bottom: 30px;
+}
+.saturday {
+  font-weight: 800;
+  font-size: 140%;
+}
+footer {
+  width: 100%;
+  margin-top: 20px;
+  bottom: 0;
+  background-color: rgba(244, 253, 252, 0.95);
+  padding: 10px;
+}
+h2 {
+  margin-bottom: 40px !important;
+}
+.navbar-collapse.justify-content-center.collapse.show {
+  align-content: ml-auto;
+}
+@media (max-width: 515px) {
+  h1 {
+    font-size: 30px;
+    padding-top: 15px;
+  }
+  .logoLetters {
+    font-size: 41px;
+  }
+}
+/* @media (min-width: 1200px) {
+  .navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+  }
+} */
